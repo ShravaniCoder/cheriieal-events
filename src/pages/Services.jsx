@@ -12,7 +12,7 @@ export default function Services() {
   return (
     <div className="page-shell">
       <SEO title="Our Services | Chériieal Events" description="End-to-end event planning, creative direction, design, production and on-site coordination." />
-      <PageHero eyebrow="Our Services" title={<>End-to-end event <span className="text-champagne">solutions.</span></>} copy="Our services are designed to work together — giving personal and corporate events one connected creative and operational team from beginning to end." image={images.stage} />
+      <PageHero eyebrow="Our Services" title={<>End-to-end event <span className="text-champagne">solutions.</span></>} copy="Our services are designed to work together — giving personal and corporate events one connected creative and operational team from beginning to end." image={images.service} />
 
       <section className="section-pad bg-ivory">
         <div className="mx-auto max-w-7xl px-5 md:px-8">
@@ -34,7 +34,7 @@ export default function Services() {
         </div>
       </section>
 
-      <CTA image={images.dinner} />
+      <CTA image={images.serviceFo} />
     </div>
   );
 }

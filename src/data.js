@@ -16,10 +16,12 @@ export const images = {
   stage: "https://images.unsplash.com/photo-1492684223066-81342ee5ff30?auto=format&fit=crop&w=1200&q=86",
   dinner: "https://images.unsplash.com/photo-1515003197210-e0cd71810b5f?auto=format&fit=crop&w=1200&q=86",
   meeting: "https://images.unsplash.com/photo-1556761175-b413da4baf72?auto=format&fit=crop&w=1200&q=86",
-  hospitality: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=1200&q=86",
+  hospitality: "/images/Food.png",
   floral: "/images/cor.png",
   contact: "/images/ContactHH.png",
-  heroF: "/images/HomeF.png"
+  heroF: "/images/HomeF.png",
+  service: "/images/ServiceB.png",
+  serviceFo: "/images/ServiceFo.png"
 };
 
 export const personalEvents = [
