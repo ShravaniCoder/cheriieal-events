@@ -2,7 +2,7 @@ import SEO from "../components/SEO";
 import PageHero from "../components/PageHero";
 import SectionHeading from "../components/SectionHeading";
 import EventCard from "../components/EventCard";
-import { images, personalEvents, corporateEvents } from "../data";
+import { images, personalEventsE, corporateEvents } from "../data";
 import CTA from "../components/CTA";
 
 export default function Events() {
@@ -15,7 +15,7 @@ export default function Events() {
         <div className="mx-auto max-w-7xl px-5 md:px-8">
           <SectionHeading eyebrow="Personal Events" title="Moments designed around you." copy="Our personal celebrations are warm, expressive and deeply considered — giving your story room to lead the experience." />
           <div className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
-            {personalEvents.map(([title, copy, image]) => <EventCard key={title} title={title} copy={copy} image={image} />)}
+            {personalEventsE.map(([title, copy, image]) => <EventCard key={title} title={title} copy={copy} image={image} />)}
           </div>
         </div>
       </section>

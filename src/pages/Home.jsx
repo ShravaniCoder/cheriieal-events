@@ -16,7 +16,20 @@ export default function Home() {
     <div className="page-shell">
       <SEO title="Chériieal Events | Personal & Corporate Events" description="Chériieal Events creates refined personal and corporate experiences through thoughtful planning, creative direction and seamless execution." />
       <section className="relative min-h-[92vh] overflow-hidden bg-forest text-ivory">
-        <img src={images.hero} alt="Luxury event dinner setting" className="absolute inset-0 h-full w-full object-cover" />
+<picture className="absolute inset-0 block h-full w-full">
+  {/* Mobile image */}
+  <source
+    media="(max-width: 767px)"
+    srcSet={images.HeroM}
+  />
+
+  {/* Desktop image */}
+  <img
+    src={images.hero}
+    alt="Luxury event dinner setting"
+    className="absolute inset-0 h-full w-full object-cover"
+  />
+</picture>
         <div className="absolute inset-0 hero-vignette" />
         <Navbar />
         <div className="relative mx-auto flex min-h-[92vh] max-w-7xl items-end px-5 pb-14 pt-36 md:pb-20 md:px-8">
