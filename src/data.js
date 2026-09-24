@@ -1,0 +1,56 @@
+export const images = {
+  hero: "https://images.unsplash.com/photo-1519225421980-715cb0215aed?auto=format&fit=crop&w=2200&q=88",
+  wedding: "https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=1200&q=86",
+  table: "https://images.unsplash.com/photo-1519167758481-83f550bb49b3?auto=format&fit=crop&w=1200&q=86",
+  ceremony: "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?auto=format&fit=crop&w=1200&q=86",
+  flowers: "https://images.unsplash.com/photo-1507504031003-b417219a0fde?auto=format&fit=crop&w=1200&q=86",
+  corporate: "https://images.unsplash.com/photo-1505373877841-8d25f7d46678?auto=format&fit=crop&w=1400&q=86",
+  stage: "https://images.unsplash.com/photo-1492684223066-81342ee5ff30?auto=format&fit=crop&w=1200&q=86",
+  dinner: "https://images.unsplash.com/photo-1515003197210-e0cd71810b5f?auto=format&fit=crop&w=1200&q=86",
+  meeting: "https://images.unsplash.com/photo-1556761175-b413da4baf72?auto=format&fit=crop&w=1200&q=86",
+  hospitality: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=1200&q=86",
+  floral: "https://images.unsplash.com/photo-1523438885200-e635ba2c371e?auto=format&fit=crop&w=1200&q=86",
+  contact: "https://images.unsplash.com/photo-1540575467063-178a50c2df87?auto=format&fit=crop&w=1600&q=86"
+};
+
+export const personalEvents = [
+  ["Weddings & Pre-Wedding Celebrations", "From intimate ceremonies to beautifully layered wedding weekends, we shape every detail around your story.", images.wedding],
+  ["Engagements & Ceremonies", "Elegant celebrations with considered styling, seamless guest flow and a sense of occasion.", images.ceremony],
+  ["Birthdays & Milestone Celebrations", "Thoughtful environments for the moments that deserve to be remembered.", images.flowers],
+  ["Anniversaries & Special Occasions", "Refined gatherings designed with warmth, atmosphere and effortless hospitality.", images.table],
+  ["Family & Cultural Celebrations", "We bring together tradition, contemporary design and meaningful guest experiences.", images.dinner]
+];
+
+export const corporateEvents = [
+  ["Conferences & Seminars", "Purposeful environments that support ideas, connection and confident presentation.", images.corporate],
+  ["Product Launches", "A considered launch experience that gives your product the room to make an impression.", images.stage],
+  ["Corporate Galas & Dinners", "Polished evenings where brand character, hospitality and atmosphere work together.", images.dinner],
+  ["Award Ceremonies", "A composed setting that makes recognition feel important, memorable and beautifully staged.", images.stage],
+  ["Corporate Meetings", "Professional event environments designed for focus, comfort and smooth execution.", images.meeting],
+  ["Brand Activations", "Creative experiences that invite people to interact with your brand in a meaningful way.", images.floral],
+  ["Networking & Business Events", "Welcoming spaces that encourage conversation, connection and lasting professional relationships.", images.hospitality],
+  ["Team-Building Events", "Experiences designed to bring teams together through thoughtful planning and shared moments.", images.corporate]
+];
+
+export const services = [
+  ["Event Planning & Management", "Complete planning from first brief to final guest departure, with every moving part carefully coordinated."],
+  ["Event Concept & Creative Direction", "A clear creative vision that translates your purpose, personality and audience into one cohesive experience."],
+  ["Venue Selection & Coordination", "We help identify the right setting and coordinate the details that make the venue work beautifully."],
+  ["Event Design, Décor & Styling", "Layered styling, tablescapes, florals and spatial details that create an intentional visual identity."],
+  ["Stage & Set Design", "Purpose-built stage and set environments that support the event story and create strong visual moments."],
+  ["Event Production & Technical Management", "Technical planning and production coordination for reliable sound, lighting, screens and show flow."],
+  ["Entertainment & Artist Management", "Thoughtfully selected entertainment and artist coordination matched to the mood of your event."],
+  ["Catering & Hospitality Coordination", "A considered hospitality experience, from menu coordination to service flow and guest comfort."],
+  ["Guest Management & RSVP", "Clear guest communication, RSVP handling and on-ground support for a calm arrival experience."],
+  ["Event Logistics & Vendor Management", "Timelines, suppliers, deliveries and dependencies managed with precision behind the scenes."],
+  ["Event Branding & Signage", "Cohesive event graphics, wayfinding and branded details that carry your visual identity throughout the venue."],
+  ["On-Site Event Coordination", "Our team stays close to the experience on event day, managing details so you can be present in the moment."]
+];
+
+export const process = [
+  ["Discover", "We listen to the occasion, audience, objectives and details that matter."],
+  ["Conceptualise", "We shape a creative direction with a clear visual and experiential point of view."],
+  ["Plan", "We build the timeline, suppliers, guest journey and production details."],
+  ["Create", "We bring the environment, styling, production and hospitality together."],
+  ["Deliver", "Our team coordinates the experience with calm, precise on-site execution."]
+];

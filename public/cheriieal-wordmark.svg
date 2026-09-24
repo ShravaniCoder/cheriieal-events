@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 260">
+  <rect width="900" height="260" fill="none"/>
+  <g fill="#C5AB76">
+    <path d="M155 55c-44 8-75 43-75 83 0 44 33 76 79 76 31 0 57-13 76-35-16 9-31 14-48 14-37 0-61-22-61-57 0-34 22-62 55-73 10-3 19-5 29-5-13-3-31-5-55-3z"/>
+    <path d="M117 194c31-58 71-94 125-118-48 35-79 70-105 126z"/>
+    <path d="M137 157c-23-3-42-12-58-29 24 3 44 11 61 25z"/>
+    <path d="M167 126c-3-25 4-45 20-61 3 23-2 43-17 63z"/>
+  </g>
+  <text x="280" y="142" fill="#F3EFE6" font-family="Georgia, serif" font-size="82" font-style="italic" letter-spacing="-2">Chériieal</text>
+  <text x="286" y="194" fill="#C5AB76" font-family="Arial, sans-serif" font-size="25" letter-spacing="15">EVENTS</text>
+</svg>
