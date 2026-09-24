@@ -61,7 +61,7 @@ export default function Home() {
           <div className="mt-10 grid gap-5 md:grid-cols-2">
             <div className="glass group overflow-hidden rounded-2xl">
               <div className="image-zoom h-72"><img src={images.ceremony} alt="Personal celebration" className="h-full w-full object-cover" /></div>
-              <div className="p-6"><div className="eyebrow">Personal Events</div><h3 className="serif mt-2 text-4xl">Moments that feel unmistakably yours.</h3><p className="mt-3 max-w-lg text-sm leading-6 text-ivory/65">Weddings, ceremonies, milestones and family celebrations shaped with warmth, elegance and a clear creative point of view.</p><Button to="/events" className="mt-6">Explore Personal Events</Button></div>
+              <div className="p-6"><div className="eyebrow">Personal Events</div><h3 className="serif mt-2 text-4xl">Where your story takes centre stage.</h3><p className="mt-3 max-w-lg text-sm leading-6 text-ivory/65">Weddings, ceremonies, milestones and family celebrations shaped with warmth, elegance and a clear creative point of view.</p><Button to="/events" className="mt-6">Explore Personal Events</Button></div>
             </div>
             <div className="glass group overflow-hidden rounded-2xl">
               <div className="image-zoom h-72"><img src={images.corporate} alt="Corporate conference" className="h-full w-full object-cover" /></div>
@@ -123,7 +123,7 @@ export default function Home() {
         </div>
       </section>
 
-      <CTA image={images.contact} />
+      <CTA image={images.heroF} />
     </div>
   );
 }

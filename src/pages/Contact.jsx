@@ -70,7 +70,7 @@ export default function Contact() {
         <div className="mx-auto max-w-3xl px-5">
           <div className="eyebrow">Chériieal Events</div>
           <h2 className="display mt-3 text-5xl md:text-6xl">Beautifully considered. Calmly delivered.</h2>
-          <p className="mx-auto mt-5 max-w-xl text-sm leading-7 text-ivory/60">We look forward to hearing your story and creating an event that feels exceptional from the first impression to the final goodbye.</p>
+          <p className="mx-auto mt-5 max-w-xl text-sm leading-7 text-ivory/60">We look forward to hearing your story and creating an event that feels exceptional from the first impression to the moments that stay with you.</p>
         </div>
       </section>
     </div>

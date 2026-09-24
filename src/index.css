@@ -115,6 +115,6 @@ img { display: block; max-width: 100%; }
   }
 
   .mobile-nav-item:active {
-    transform: scale(.985);
+    transform: scale(0.985);
   }
 }
