@@ -21,7 +21,9 @@ export const images = {
   contact: "/images/ContactHH.png",
   heroF: "/images/HomeF.png",
   service: "/images/ServiceB.png",
-  serviceFo: "/images/Stage.png"
+  serviceFo: "/images/Stage.png",
+  abouth: "/images/AboutH.png",
+  AboutFF: "/images/AboutFF.png"
 };
 
 export const personalEvents = [

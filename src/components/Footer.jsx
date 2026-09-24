@@ -14,29 +14,51 @@ export default function Footer() {
   return (
     <footer className="relative overflow-hidden bg-forest text-ivory">
 
-      {/* BACKGROUND PATTERN */}
-      <div
-        className="pointer-events-none absolute inset-0 opacity-20"
-        style={{
-          backgroundImage:
-            "radial-gradient(circle at 20% 20%, #C5AB76 0 1px, transparent 1px), radial-gradient(circle at 80% 70%, #89998B 0 1px, transparent 1px)",
-          backgroundSize: "38px 38px",
-        }}
-      />
+      {/* =========================================
+          FOOTER BACKGROUND IMAGE
+      ========================================== */}
+       {/* RESPONSIVE FOOTER IMAGE */}
+  <picture className="pointer-events-none absolute inset-0 block">
+    <source
+      media="(max-width: 767px)"
+      srcSet="/images/FooterMMM.png"
+    />
 
-      {/* SOFT BACKGROUND GLOW */}
-      <div className="pointer-events-none absolute -left-32 top-20 h-72 w-72 rounded-full bg-champagne/[0.05] blur-3xl" />
-      <div className="pointer-events-none absolute -right-32 bottom-0 h-80 w-80 rounded-full bg-sage/[0.05] blur-3xl" />
+    <img
+      src="/images/FooterII.png"
+      alt=""
+      className="h-full w-full object-cover object-center"
+    />
+  </picture>
 
+      {/* =========================================
+          DARK OVERLAY
+          Keeps content readable while preserving
+          the green botanical artwork.
+      ========================================== */}
+      <div className="pointer-events-none absolute inset-0 bg-forest/20" />
+
+      {/* =========================================
+          SOFT GREEN DEPTH
+      ========================================== */}
+      <div className="pointer-events-none absolute inset-0 bg-gradient-to-b from-forest/10 via-transparent to-forest/30" />
+
+      {/* =========================================
+          FOOTER CONTENT
+      ========================================== */}
       <div className="relative mx-auto max-w-7xl px-5 py-14 md:px-8">
 
-        {/* MAIN FOOTER GRID */}
+        {/* =======================================
+            MAIN FOOTER GRID
+        ======================================== */}
         <div className="grid gap-12 md:grid-cols-[1.2fr_.8fr_.8fr]">
 
-          {/* BRAND */}
+          {/* =====================================
+              BRAND
+          ====================================== */}
           <div>
 
-            {/* LOGO IMAGE */}
+            {/* LOGO */}
             <Link
               to="/"
               aria-label="Chériieal Events home"
@@ -49,7 +71,7 @@ export default function Footer() {
                   h-auto
                   w-[170px]
                   object-contain
-                  transition-all
+                  transition-transform
                   duration-500
                   group-hover:scale-[1.02]
                   md:w-[195px]
@@ -67,10 +89,25 @@ export default function Footer() {
             {/* SOCIAL ICONS */}
             <div className="mt-6 flex gap-3">
 
+              {/* INSTAGRAM */}
               <a
                 href="#"
                 aria-label="Instagram"
-                className="grid h-9 w-9 place-items-center rounded-full border border-champagne/30 text-champagne transition-all duration-300 hover:border-champagne hover:bg-champagne hover:text-forest"
+                className="
+                  grid
+                  h-9
+                  w-9
+                  place-items-center
+                  rounded-full
+                  border
+                  border-champagne/30
+                  text-champagne
+                  transition-all
+                  duration-300
+                  hover:border-champagne
+                  hover:bg-champagne
+                  hover:text-forest
+                "
               >
                 <Instagram
                   size={15}
@@ -78,10 +115,25 @@ export default function Footer() {
                 />
               </a>
 
+              {/* LINKEDIN */}
               <a
                 href="#"
                 aria-label="LinkedIn"
-                className="grid h-9 w-9 place-items-center rounded-full border border-champagne/30 text-champagne transition-all duration-300 hover:border-champagne hover:bg-champagne hover:text-forest"
+                className="
+                  grid
+                  h-9
+                  w-9
+                  place-items-center
+                  rounded-full
+                  border
+                  border-champagne/30
+                  text-champagne
+                  transition-all
+                  duration-300
+                  hover:border-champagne
+                  hover:bg-champagne
+                  hover:text-forest
+                "
               >
                 <Linkedin
                   size={15}
@@ -89,10 +141,25 @@ export default function Footer() {
                 />
               </a>
 
+              {/* FACEBOOK */}
               <a
                 href="#"
                 aria-label="Facebook"
-                className="grid h-9 w-9 place-items-center rounded-full border border-champagne/30 text-champagne transition-all duration-300 hover:border-champagne hover:bg-champagne hover:text-forest"
+                className="
+                  grid
+                  h-9
+                  w-9
+                  place-items-center
+                  rounded-full
+                  border
+                  border-champagne/30
+                  text-champagne
+                  transition-all
+                  duration-300
+                  hover:border-champagne
+                  hover:bg-champagne
+                  hover:text-forest
+                "
               >
                 <Facebook
                   size={15}
@@ -103,8 +170,11 @@ export default function Footer() {
             </div>
           </div>
 
-          {/* EXPLORE */}
+          {/* =====================================
+              EXPLORE
+          ====================================== */}
           <div>
+
             <div className="eyebrow">
               Explore
             </div>
@@ -142,8 +212,11 @@ export default function Footer() {
             </div>
           </div>
 
-          {/* CONNECT */}
+          {/* =====================================
+              CONNECT
+          ====================================== */}
           <div>
+
             <div className="eyebrow">
               Connect
             </div>
@@ -152,6 +225,7 @@ export default function Footer() {
 
               {/* LOCATION */}
               <div className="flex gap-3">
+
                 <MapPin
                   size={16}
                   strokeWidth={1.4}
@@ -161,13 +235,21 @@ export default function Footer() {
                 <span>
                   Mumbai, Maharashtra, India
                 </span>
+
               </div>
 
               {/* EMAIL */}
               <a
                 href="mailto:hello@cheriiealevents.com"
-                className="flex gap-3 transition-colors duration-300 hover:text-champagne"
+                className="
+                  flex
+                  gap-3
+                  transition-colors
+                  duration-300
+                  hover:text-champagne
+                "
               >
+
                 <Mail
                   size={16}
                   strokeWidth={1.4}
@@ -177,13 +259,21 @@ export default function Footer() {
                 <span>
                   hello@cheriiealevents.com
                 </span>
+
               </a>
 
               {/* PHONE */}
               <a
                 href="tel:+919876543100"
-                className="flex gap-3 transition-colors duration-300 hover:text-champagne"
+                className="
+                  flex
+                  gap-3
+                  transition-colors
+                  duration-300
+                  hover:text-champagne
+                "
               >
+
                 <Phone
                   size={16}
                   strokeWidth={1.4}
@@ -193,6 +283,7 @@ export default function Footer() {
                 <span>
                   +91 98765 43100
                 </span>
+
               </a>
 
             </div>
@@ -200,7 +291,9 @@ export default function Footer() {
 
         </div>
 
-        {/* BOTTOM BAR */}
+        {/* =======================================
+            BOTTOM BAR
+        ======================================== */}
         <div
           className="
             mt-12
@@ -208,12 +301,12 @@ export default function Footer() {
             flex-col
             gap-3
             border-t
-            border-champagne/15
+            border-champagne/20
             pt-6
             text-[10px]
             uppercase
             tracking-[.18em]
-            text-ivory/45
+            text-ivory/50
             md:flex-row
             md:items-center
             md:justify-between

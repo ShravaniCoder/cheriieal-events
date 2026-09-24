@@ -10,12 +10,12 @@ export default function About() {
   return (
     <div className="page-shell">
       <SEO title="About Us | Chériieal Events" description="Discover the philosophy and approach behind Chériieal Events." />
-      <PageHero eyebrow="About Us" title={<>People. Passion. <span className="text-champagne">Purpose.</span></>} copy="We create events with a strong sense of place, a clear creative point of view and a calm, considered approach to every detail." image={images.table} />
+      <PageHero eyebrow="About Us" title={<>People. Passion. <span className="text-champagne">Purpose.</span></>} copy="We create events with a strong sense of place, a clear creative point of view and a calm, considered approach to every detail." image={images.abouth} />
 
       <section className="section-pad bg-ivory">
         <div className="mx-auto grid max-w-7xl gap-12 px-5 md:grid-cols-[1fr_1fr] md:px-8">
           <SectionHeading eyebrow="Who We Are" title="Driven by creativity. Defined by excellence." copy="At Chériieal Events, we are a team of planners, creative thinkers and experience-makers who believe that an event should feel more than beautiful. It should feel intentional. We bring together strategy, styling, production and hospitality to create experiences people remember for the right reasons." />
-          <div className="image-zoom overflow-hidden rounded-2xl"><img src={images.floral} alt="Event floral details" className="h-[460px] w-full object-cover" /></div>
+          <div className="image-zoom overflow-hidden rounded-2xl"><img src={images.abouth} alt="Event floral details" className="h-[460px] w-full object-cover" /></div>
         </div>
       </section>
 
@@ -54,7 +54,7 @@ export default function About() {
         </div>
       </section>
 
-      <CTA image={images.wedding} title="Your vision. Our commitment." copy="We promise to approach every event with creativity, precision and genuine care — creating an experience that feels unmistakably yours." />
+      <CTA image={images.AboutFF} title="Your vision. Our commitment." copy="We promise to approach every event with creativity, precision and genuine care — creating an experience that feels unmistakably yours." />
     </div>
   );
 }
