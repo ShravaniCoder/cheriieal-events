@@ -6,64 +6,146 @@ import {
   MapPin,
   Phone,
 } from "lucide-react";
-import { Link } from "react-router-dom";
 
+import { Link } from "react-router-dom";
 import LogoImage from "/CLogo.png";
 
 export default function Footer() {
   return (
     <footer className="relative overflow-hidden bg-forest text-ivory">
 
-      {/* =========================================
-          FOOTER BACKGROUND IMAGE
-      ========================================== */}
-       {/* RESPONSIVE FOOTER IMAGE */}
-<div className="absolute inset-0">
-  <picture className="pointer-events-none absolute inset-0 block">
-    <source
-      media="(max-width: 767px)"
-      srcSet="/images/Footer1.png"
-    />
+      {/* =====================================================
+          LUXURY CSS BACKGROUND
+      ====================================================== */}
 
-    <img
-      src="/images/FooterD.png"
-      alt=""
-      className="h-full w-full object-cover object-center opacity-50"
-    />
-  </picture>
+      {/* Deep emerald gradient */}
+      <div
+        className="
+          pointer-events-none
+          absolute inset-0
+          bg-gradient-to-br
+          from-[#0A2119]
+          via-[#10231D]
+          to-[#071914]
+        "
+      />
 
-  {/* Dark overlay */}
-  <div className="absolute inset-0 bg-forest/70" />
-</div>
+      {/* Soft emerald glow — top right */}
+      <div
+        className="
+          pointer-events-none
+          absolute
+          -right-32
+          -top-32
+          h-[420px]
+          w-[420px]
+          rounded-full
+          bg-emerald/20
+          blur-[120px]
+        "
+      />
 
-      {/* =========================================
-          DARK OVERLAY
-          Keeps content readable while preserving
-          the green botanical artwork.
-      ========================================== */}
-      <div className="pointer-events-none absolute inset-0 bg-forest/20" />
+      {/* Soft emerald glow — bottom left */}
+      <div
+        className="
+          pointer-events-none
+          absolute
+          -bottom-40
+          -left-40
+          h-[420px]
+          w-[420px]
+          rounded-full
+          bg-emerald/25
+          blur-[130px]
+        "
+      />
 
-      {/* =========================================
-          SOFT GREEN DEPTH
-      ========================================== */}
-      <div className="pointer-events-none absolute inset-0 bg-gradient-to-b from-forest/10 via-transparent to-forest/30" />
+      {/* =====================================================
+          MINIMAL GOLD TEXTURE
+      ====================================================== */}
 
-      {/* =========================================
+      {/* Bottom gold glow */}
+      <div
+        className="
+          pointer-events-none
+          absolute
+          bottom-[-100px]
+          left-[-80px]
+          h-[260px]
+          w-[500px]
+          rounded-full
+          bg-champagne/10
+          blur-[100px]
+        "
+      />
+
+      {/* Minimal gold decorative line */}
+      <div
+        className="
+          pointer-events-none
+          absolute
+          bottom-16
+          right-[-80px]
+          h-px
+          w-[420px]
+          rotate-[-12deg]
+          bg-gradient-to-r
+          from-transparent
+          via-champagne/30
+          to-transparent
+        "
+      />
+
+      <div
+        className="
+          pointer-events-none
+          absolute
+          bottom-24
+          right-[-50px]
+          h-px
+          w-[300px]
+          rotate-[-12deg]
+          bg-gradient-to-r
+          from-transparent
+          via-champagne/15
+          to-transparent
+        "
+      />
+
+      {/* Tiny gold accent */}
+      <div
+        className="
+          pointer-events-none
+          absolute
+          bottom-10
+          left-12
+          h-1
+          w-1
+          rounded-full
+          bg-champagne/60
+          shadow-[0_0_20px_rgba(197,171,118,.45)]
+        "
+      />
+
+      {/* =====================================================
           FOOTER CONTENT
-      ========================================== */}
-      <div className="relative mx-auto max-w-7xl px-5 py-14 md:px-8">
+      ====================================================== */}
 
-        {/* =======================================
+      <div className="relative mx-auto max-w-7xl px-5 py-14 md:px-8 lg:py-16">
+
+        {/* =================================================
             MAIN FOOTER GRID
-        ======================================== */}
-        <div className="grid gap-12 md:grid-cols-[1.2fr_.8fr_.8fr]">
+        ================================================== */}
 
-          {/* =====================================
+        <div className="grid gap-12 md:grid-cols-[1.2fr_.8fr_.9fr] lg:gap-20">
+
+          {/* =================================================
               BRAND
-          ====================================== */}
+          ================================================== */}
+
           <div>
 
-            {/* LOGO */}
+            {/* Logo */}
             <Link
               to="/"
               aria-label="Chériieal Events home"
@@ -84,24 +166,32 @@ export default function Footer() {
               />
             </Link>
 
-            {/* DESCRIPTION */}
-            <p className="mt-6 max-w-md text-sm leading-7 text-ivory/65">
+            {/* Description */}
+            <p
+              className="
+                mt-6
+                max-w-md
+                text-sm
+                leading-7
+                text-ivory/65
+              "
+            >
               Chériieal Events creates personal and corporate experiences
               with considered design, thoughtful planning and seamless
               execution.
             </p>
 
-            {/* SOCIAL ICONS */}
-            <div className="mt-6 flex gap-3">
+            {/* Social Icons */}
+            <div className="mt-7 flex gap-3">
 
-              {/* INSTAGRAM */}
+              {/* Instagram */}
               <a
                 href="#"
                 aria-label="Instagram"
                 className="
                   grid
-                  h-9
-                  w-9
+                  h-10
+                  w-10
                   place-items-center
                   rounded-full
                   border
@@ -120,14 +210,14 @@ export default function Footer() {
                 />
               </a>
 
-              {/* LINKEDIN */}
+              {/* LinkedIn */}
               <a
                 href="#"
                 aria-label="LinkedIn"
                 className="
                   grid
-                  h-9
-                  w-9
+                  h-10
+                  w-10
                   place-items-center
                   rounded-full
                   border
@@ -146,14 +236,14 @@ export default function Footer() {
                 />
               </a>
 
-              {/* FACEBOOK */}
+              {/* Facebook */}
               <a
                 href="#"
                 aria-label="Facebook"
                 className="
                   grid
-                  h-9
-                  w-9
+                  h-10
+                  w-10
                   place-items-center
                   rounded-full
                   border
@@ -175,41 +265,91 @@ export default function Footer() {
             </div>
           </div>
 
-          {/* =====================================
+
+          {/* =================================================
               EXPLORE
-          ====================================== */}
+          ================================================== */}
+
           <div>
 
-            <div className="eyebrow">
+            {/* Heading */}
+            <div
+              className="
+                font-display
+                text-xl
+                tracking-wide
+                text-ivory
+              "
+            >
               Explore
             </div>
 
-            <div className="mt-5 grid gap-3 text-sm text-ivory/70">
+            {/* Gold underline */}
+            <div className="mt-3 flex items-center gap-2">
+              <span className="h-px w-8 bg-champagne/50" />
+              <span className="h-1 w-1 rotate-45 bg-champagne/70" />
+              <span className="h-px w-8 bg-champagne/50" />
+            </div>
+
+            {/* Links */}
+            <div
+              className="
+                mt-6
+                grid
+                gap-4
+                text-sm
+                text-ivory/65
+              "
+            >
 
               <Link
                 to="/about"
-                className="transition-colors duration-300 hover:text-champagne"
+                className="
+                  w-fit
+                  transition-all
+                  duration-300
+                  hover:translate-x-1
+                  hover:text-champagne
+                "
               >
                 About Us
               </Link>
 
               <Link
                 to="/events"
-                className="transition-colors duration-300 hover:text-champagne"
+                className="
+                  w-fit
+                  transition-all
+                  duration-300
+                  hover:translate-x-1
+                  hover:text-champagne
+                "
               >
                 Our Events
               </Link>
 
               <Link
                 to="/services"
-                className="transition-colors duration-300 hover:text-champagne"
+                className="
+                  w-fit
+                  transition-all
+                  duration-300
+                  hover:translate-x-1
+                  hover:text-champagne
+                "
               >
                 Our Services
               </Link>
 
               <Link
                 to="/contact"
-                className="transition-colors duration-300 hover:text-champagne"
+                className="
+                  w-fit
+                  transition-all
+                  duration-300
+                  hover:translate-x-1
+                  hover:text-champagne
+                "
               >
                 Contact Us
               </Link>
@@ -217,35 +357,69 @@ export default function Footer() {
             </div>
           </div>
 
-          {/* =====================================
+
+          {/* =================================================
               CONNECT
-          ====================================== */}
+          ================================================== */}
+
           <div>
 
-            <div className="eyebrow">
+            {/* Heading */}
+            <div
+              className="
+                font-display
+                text-xl
+                tracking-wide
+                text-ivory
+              "
+            >
               Connect
             </div>
 
-            <div className="mt-5 grid gap-4 text-sm text-ivory/70">
+            {/* Gold underline */}
+            <div className="mt-3 flex items-center gap-2">
+              <span className="h-px w-8 bg-champagne/50" />
+              <span className="h-1 w-1 rotate-45 bg-champagne/70" />
+              <span className="h-px w-8 bg-champagne/50" />
+            </div>
 
-              {/* LOCATION */}
+            {/* Contact Details */}
+            <div
+              className="
+                mt-6
+                grid
+                gap-5
+                text-sm
+                leading-6
+                text-ivory/65
+              "
+            >
+
+              {/* Location */}
               <div className="flex gap-3">
 
                 <MapPin
-                  size={16}
+                  size={17}
                   strokeWidth={1.4}
-                  className="mt-0.5 shrink-0 text-champagne"
+                  className="
+                    mt-0.5
+                    shrink-0
+                    text-champagne
+                  "
                 />
 
                 <span>
                   1311, Marathon Millennium,
-LBS Road, Beside Nirmal Lifestyle Mall,
-Mulund West, Mumbai - 400080
+                  <br />
+                  LBS Road, Beside Nirmal Lifestyle Mall,
+                  <br />
+                  Mulund West, Mumbai - 400080
                 </span>
 
               </div>
 
-              {/* EMAIL */}
+
+              {/* Email */}
               <a
                 href="mailto:hello@cheriiealevents.com"
                 className="
@@ -258,9 +432,13 @@ Mulund West, Mumbai - 400080
               >
 
                 <Mail
-                  size={16}
+                  size={17}
                   strokeWidth={1.4}
-                  className="mt-0.5 shrink-0 text-champagne"
+                  className="
+                    mt-0.5
+                    shrink-0
+                    text-champagne
+                  "
                 />
 
                 <span>
@@ -269,7 +447,8 @@ Mulund West, Mumbai - 400080
 
               </a>
 
-              {/* PHONE */}
+
+              {/* Phone */}
               <a
                 href="tel:+919876543100"
                 className="
@@ -282,9 +461,13 @@ Mulund West, Mumbai - 400080
               >
 
                 <Phone
-                  size={16}
+                  size={17}
                   strokeWidth={1.4}
-                  className="mt-0.5 shrink-0 text-champagne"
+                  className="
+                    mt-0.5
+                    shrink-0
+                    text-champagne
+                  "
                 />
 
                 <span>
@@ -298,35 +481,45 @@ Mulund West, Mumbai - 400080
 
         </div>
 
-        {/* =======================================
+
+        {/* =================================================
             BOTTOM BAR
-        ======================================== */}
+        ================================================== */}
+
         <div
           className="
-            mt-12
-            flex
-            flex-col
-            gap-3
+            mt-14
             border-t
-            border-champagne/20
+            border-champagne/15
             pt-6
-            text-[10px]
-            uppercase
-            tracking-[.18em]
-            text-ivory/50
-            md:flex-row
-            md:items-center
-            md:justify-between
           "
         >
 
-          <span>
-            © {new Date().getFullYear()} Chériieal Events. All rights reserved.
-          </span>
+          <div
+            className="
+              flex
+              flex-col
+              gap-3
+              text-[10px]
+              uppercase
+              tracking-[.18em]
+              text-ivory/45
+              md:flex-row
+              md:items-center
+              md:justify-between
+            "
+          >
 
-          <span>
-            Personal & Corporate Events
-          </span>
+            <span>
+              © {new Date().getFullYear()} Chériieal Events.
+              All rights reserved.
+            </span>
+
+            <span className="text-champagne/65">
+              Personal & Corporate Events
+            </span>
+
+          </div>
 
         </div>
 
