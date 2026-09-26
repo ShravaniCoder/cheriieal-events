@@ -7,7 +7,7 @@ import {
 } from "lucide-react";
 
 import Button from "./Button";
-import LogoImage from "/CHLogo.png";
+import LogoImage from "/CLogo.png";
 
 const links = [
   ["/", "Home"],

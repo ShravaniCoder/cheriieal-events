@@ -26,7 +26,9 @@ export default function Contact() {
             <div className="mt-8 grid gap-4">
               <div className="glass-light rounded-2xl p-5"><Mail className="text-champagne" size={19} /><div className="mt-4 text-xs uppercase tracking-[.18em] text-forest/45">Email</div><div className="mt-1 text-sm text-forest">hello@cheriiealevents.com</div></div>
               <div className="glass-light rounded-2xl p-5"><Phone className="text-champagne" size={19} /><div className="mt-4 text-xs uppercase tracking-[.18em] text-forest/45">Phone</div><div className="mt-1 text-sm text-forest">+91 98765 43100</div></div>
-              <div className="glass-light rounded-2xl p-5"><MapPin className="text-champagne" size={19} /><div className="mt-4 text-xs uppercase tracking-[.18em] text-forest/45">Location</div><div className="mt-1 text-sm text-forest">Mumbai, Maharashtra, India</div></div>
+              <div className="glass-light rounded-2xl p-5"><MapPin className="text-champagne" size={19} /><div className="mt-4 text-xs uppercase tracking-[.18em] text-forest/45">Location</div><div className="mt-1 text-sm text-forest">1311, Marathon Millennium,
+LBS Road, Beside Nirmal Lifestyle Mall,
+Mulund West, Mumbai - 400080</div></div>
             </div>
           </div>
 

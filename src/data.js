@@ -22,7 +22,7 @@ export const images = {
   contact: "/images/ContactHH.png",
   heroF: "/images/HomeF.png",
   service: "/images/ServiceB.png",
-  serviceFo: "/images/Stage.png",
+  serviceFo: "/images/ServiceFF.png",
   abouth: "/images/AboutH.png",
   AboutFF: "/images/AboutFF.png",
   PS1: "/images/PS1.png",
@@ -41,11 +41,11 @@ export const personalEvents = [
 ];
 
 export const personalEventsE = [
-  ["Weddings & Pre-Wedding Celebrations", "From intimate ceremonies to beautifully layered wedding weekends, we shape every detail around your story.", images.PS1],
-  ["Engagements & Ceremonies", "Elegant celebrations with considered styling, seamless guest flow and a sense of occasion.", images.PS2],
-  ["Birthdays & Milestone Celebrations", "Thoughtful environments for the moments that deserve to be remembered.", images.PS3],
-  ["Anniversaries & Special Occasions", "Refined gatherings designed with warmth, atmosphere and effortless hospitality.", images.PS4],
-  ["Family & Cultural Celebrations", "We bring together tradition, contemporary design and meaningful guest experiences.", images.PS5]
+  ["Weddings & Pre-Wedding Celebrations", "From intimate ceremonies to beautifully layered wedding weekends, we shape every detail around your story.", images.weddingD],
+  ["Engagements & Ceremonies", "Elegant celebrations with considered styling, seamless guest flow and a sense of occasion.", images.ring],
+  ["Birthdays & Milestone Celebrations", "Thoughtful environments for the moments that deserve to be remembered.", images.birthday],
+  ["Anniversaries & Special Occasions", "Refined gatherings designed with warmth, atmosphere and effortless hospitality.", images.anniversary],
+  ["Family & Cultural Celebrations", "We bring together tradition, contemporary design and meaningful guest experiences.", images.dinner]
 ];
 
 export const corporateEvents = [

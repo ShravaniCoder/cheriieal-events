@@ -8,7 +8,7 @@ import {
 } from "lucide-react";
 import { Link } from "react-router-dom";
 
-import LogoImage from "/CHLogo.png";
+import LogoImage from "/CLogo.png";
 
 export default function Footer() {
   return (
@@ -18,18 +18,23 @@ export default function Footer() {
           FOOTER BACKGROUND IMAGE
       ========================================== */}
        {/* RESPONSIVE FOOTER IMAGE */}
+<div className="absolute inset-0">
   <picture className="pointer-events-none absolute inset-0 block">
     <source
       media="(max-width: 767px)"
-      srcSet="/images/FooterMMM.png"
+      srcSet="/images/Footer1.png"
     />
 
     <img
-      src="/images/FooterII.png"
+      src="/images/FooterD.png"
       alt=""
-      className="h-full w-full object-cover object-center"
+      className="h-full w-full object-cover object-center opacity-50"
     />
   </picture>
+
+  {/* Dark overlay */}
+  <div className="absolute inset-0 bg-forest/70" />
+</div>
 
       {/* =========================================
           DARK OVERLAY
@@ -233,7 +238,9 @@ export default function Footer() {
                 />
 
                 <span>
-                  Mumbai, Maharashtra, India
+                  1311, Marathon Millennium,
+LBS Road, Beside Nirmal Lifestyle Mall,
+Mulund West, Mumbai - 400080
                 </span>
 
               </div>
