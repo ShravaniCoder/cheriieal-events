@@ -1,6 +1,7 @@
 export const images = {
   hero: "/images/HomeH.png",
-  HeroM: "/images/HeroM",
+  HeroM: "/images/HeroM.png",
+  About: "/images/AboutU.png",
   wedding: "/images/wedP.png",
   weddingD: "/images/Wedding.png",
   table: "/images/table.png",
@@ -8,7 +9,7 @@ export const images = {
   ring: "/images/Reng.png",
   birthday: "/images/Birthday.png",
   flowers: "https://images.unsplash.com/photo-1507504031003-b417219a0fde?auto=format&fit=crop&w=1200&q=86",
-  corporate: "/images/CorCon.png",
+  corporate: "/images/Corpo.png",
   corporateCere: "/images/Seminar.png",
   proL: "/images/ProL.png",
   gala: "/images/Dinner.png",
@@ -32,34 +33,46 @@ export const images = {
      PS5: "/images/PS5.png",
      network: "/images/Network.png",
      team: "/images/Team.png",
-     activation: "/images/Activation.png"
+     activation: "/images/Activation.png",
+     aboutT: "/images/AboutT.png"
 };
 
 export const personalEvents = [
-  ["Weddings & Pre-Wedding Celebrations", "From intimate ceremonies to beautifully layered wedding weekends, we shape every detail around your story.", images.weddingD],
-  ["Engagements & Ceremonies", "Elegant celebrations with considered styling, seamless guest flow and a sense of occasion.", images.ring],
-  ["Birthdays & Milestone Celebrations", "Thoughtful environments for the moments that deserve to be remembered.", images.birthday],
-  ["Anniversaries & Special Occasions", "Refined gatherings designed with warmth, atmosphere and effortless hospitality.", images.anniversary],
+  ["Weddings & Pre-Wedding Celebrations", "From intimate ceremonies to beautifully layered wedding weekends, we shape every detail around your story, bringing together thoughtful planning, refined styling and seamless execution.", images.weddingD],
+  ["Engagements & Ceremonies", "At Chériieal Events, we create elegant celebrations with considered styling, seamless guest flow and a beautifully composed sense of occasion.", images.ring],
+  ["Birthdays & Milestone Celebrations", "Our team creates thoughtful environments for the moments that deserve to be remembered, combining distinctive details, warm atmosphere and carefully considered experiences.", images.birthday],
+  ["Anniversaries & Special Occasions", "We design refined gatherings with warmth, atmosphere and effortless hospitality, creating occasions that feel personal, polished and distinctly yours.", images.anniversary],
   ["Family & Cultural Celebrations", "We bring together tradition, contemporary design and meaningful guest experiences.", images.dinner]
 ];
 
 export const personalEventsE = [
-  ["Weddings & Pre-Wedding Celebrations", "From intimate ceremonies to beautifully layered wedding weekends, we shape every detail around your story.", images.weddingD],
+  ["Weddings & Pre-Wedding Celebrations", "We turn your wedding vision into beautifully composed celebrations, thoughtfully shaped around every meaningful detail.", images.weddingD],
   ["Engagements & Ceremonies", "Elegant celebrations with considered styling, seamless guest flow and a sense of occasion.", images.ring],
-  ["Birthdays & Milestone Celebrations", "Thoughtful environments for the moments that deserve to be remembered.", images.birthday],
-  ["Anniversaries & Special Occasions", "Refined gatherings designed with warmth, atmosphere and effortless hospitality.", images.anniversary],
-  ["Family & Cultural Celebrations", "We bring together tradition, contemporary design and meaningful guest experiences.", images.dinner]
+  ["Birthdays & Milestone Celebrations", "Our team transforms milestones into beautifully styled experiences filled with character, warmth and memorable details.", images.birthday],
+  ["Anniversaries & Special Occasions", "We create intimate, polished gatherings where atmosphere, hospitality and personal touches come together naturally.", images.anniversary],
+  ["Family & Cultural Celebrations", "Our team brings tradition and contemporary creativity together to create celebrations that feel meaningful, elevated and beautifully yours.", images.dinner]
 ];
 
 export const corporateEvents = [
-  ["Conferences & Seminars", "Purposeful environments that support ideas, connection and confident presentation.", images.corporateCere],
-  ["Product Launches", "A considered launch experience that gives your product the room to make an impression.", images.proL],
-  ["Corporate Galas & Dinners", "Polished evenings where brand character, hospitality and atmosphere work together.", images.gala],
-  ["Award Ceremonies", "A composed setting that makes recognition feel important, memorable and beautifully staged.", images.award],
+  ["Conferences & Seminars", "At Chériieal Events, we create purposeful environments that support meaningful ideas, effortless connection and confident presentation.", images.corporateCere],
+  ["Product Launches", "Our team creates considered launch experiences that give your product the space to make a lasting impression, from the first reveal to the final interaction.", images.proL],
+  ["Corporate Galas & Dinners", "We bring together polished styling, thoughtful hospitality and atmosphere to create corporate evenings that reflect your brand character.", images.gala],
+  ["Award Ceremonies", "At Chériieal Events, our team creates composed settings where recognition feels important, memorable and beautifully staged.", images.award],
   ["Corporate Meetings", "Professional event environments designed for focus, comfort and smooth execution.", images.meeting],
   ["Brand Activations", "Creative experiences that invite people to interact with your brand in a meaningful way.", images.activation],
   ["Networking & Business Events", "Welcoming spaces that encourage conversation, connection and lasting professional relationships.", images.network],
   ["Team-Building Events", "Experiences designed to bring teams together through thoughtful planning and shared moments.", images.team]
+];
+
+export const corporateEventsE = [
+  ["Conferences & Seminars", "We create focused environments where ideas flow, conversations connect and every detail feels considered.", images.corporateCere],
+  ["Product Launches", "Chériieal Events turns product reveals into polished experiences designed to capture attention and create impact.", images.proL],
+  ["Corporate Galas & Dinners", "Our team shapes sophisticated evenings where setting, hospitality and brand character come together effortlessly.", images.gala],
+  ["Award Ceremonies", "We create distinctive stages for recognition, giving every achievement the moment it deserves.", images.award],
+  ["Corporate Meetings", "At Chériieal Events, we create professional settings that keep people comfortable, focused and connected.", images.meeting],
+  ["Brand Activations", "Our team transforms brand stories into engaging experiences that invite curiosity, interaction and discovery.", images.activation],
+  ["Networking & Business Events", "We design welcoming environments that make meaningful introductions and professional connections feel effortless.", images.network],
+  ["Team-Building Events", "Our team creates shared experiences that encourage collaboration, energy and genuine connection.", images.team]
 ];
 
 export const services = [

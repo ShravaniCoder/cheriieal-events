@@ -15,7 +15,7 @@ export default function About() {
       <section className="section-pad bg-ivory">
         <div className="mx-auto grid max-w-7xl gap-12 px-5 md:grid-cols-[1fr_1fr] md:px-8">
           <SectionHeading eyebrow="Who We Are" title="Driven by creativity. Defined by excellence." copy="At Chériieal Events, we are a team of planners, creative thinkers and experience-makers who believe that an event should feel more than beautiful. It should feel intentional. We bring together strategy, styling, production and hospitality to create experiences people remember for the right reasons." />
-          <div className="image-zoom overflow-hidden rounded-2xl"><img src={images.abouth} alt="Event floral details" className="h-[460px] w-full object-cover" /></div>
+          <div className="image-zoom overflow-hidden rounded-2xl"><img src={images.About} alt="Event floral details" className="h-[460px] w-full object-cover" /></div>
         </div>
       </section>
 
@@ -41,7 +41,7 @@ export default function About() {
 
       <section className="bg-emerald py-20 text-ivory">
         <div className="mx-auto grid max-w-7xl gap-10 px-5 md:grid-cols-[.85fr_1.15fr] md:items-center md:px-8">
-          <div className="image-zoom overflow-hidden rounded-2xl"><img src={images.corporate} alt="Event team working" className="h-[430px] w-full object-cover" /></div>
+          <div className="image-zoom overflow-hidden rounded-2xl"><img src={images.aboutT} alt="Event team working" className="h-[430px] w-full object-cover" /></div>
           <div>
             <div className="eyebrow">Our Team</div>
             <h2 className="display mt-3 text-5xl md:text-6xl">A passionate team behind every celebration.</h2>
