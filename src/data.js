@@ -8,17 +8,17 @@ export const images = {
   ring: "/images/Reng.png",
   birthday: "/images/Birthday.png",
   flowers: "https://images.unsplash.com/photo-1507504031003-b417219a0fde?auto=format&fit=crop&w=1200&q=86",
-  corporate: "/images/CorCer.png",
-  corporateCere: "/images/CorCere.png",
+  corporate: "/images/CorCon.png",
+  corporateCere: "/images/Seminar.png",
   proL: "/images/ProL.png",
-  gala: "/images/GalaCor.png",
+  gala: "/images/Dinner.png",
   award: "/images/Award.png",
   anniversary: "/images/Anniversary.png",
   stage: "https://images.unsplash.com/photo-1492684223066-81342ee5ff30?auto=format&fit=crop&w=1200&q=86",
   dinner: "/images/House.png",
-  meeting: "https://images.unsplash.com/photo-1556761175-b413da4baf72?auto=format&fit=crop&w=1200&q=86",
+  meeting: "/images/Meet.png",
   hospitality: "/images/Foood.png",
-  floral: "/images/cor.png",
+  floral: "/images/Corp.png",
   contact: "/images/ContactHH.png",
   heroF: "/images/HomeF.png",
   service: "/images/ServiceB.png",
@@ -30,6 +30,9 @@ export const images = {
    PS3: "/images/PS3.png",
     PS4: "/images/PS4.png",
      PS5: "/images/PS5.png",
+     network: "/images/Network.png",
+     team: "/images/Team.png",
+     activation: "/images/Activation.png"
 };
 
 export const personalEvents = [
@@ -54,9 +57,9 @@ export const corporateEvents = [
   ["Corporate Galas & Dinners", "Polished evenings where brand character, hospitality and atmosphere work together.", images.gala],
   ["Award Ceremonies", "A composed setting that makes recognition feel important, memorable and beautifully staged.", images.award],
   ["Corporate Meetings", "Professional event environments designed for focus, comfort and smooth execution.", images.meeting],
-  ["Brand Activations", "Creative experiences that invite people to interact with your brand in a meaningful way.", images.floral],
-  ["Networking & Business Events", "Welcoming spaces that encourage conversation, connection and lasting professional relationships.", images.hospitality],
-  ["Team-Building Events", "Experiences designed to bring teams together through thoughtful planning and shared moments.", images.corporate]
+  ["Brand Activations", "Creative experiences that invite people to interact with your brand in a meaningful way.", images.activation],
+  ["Networking & Business Events", "Welcoming spaces that encourage conversation, connection and lasting professional relationships.", images.network],
+  ["Team-Building Events", "Experiences designed to bring teams together through thoughtful planning and shared moments.", images.team]
 ];
 
 export const services = [
