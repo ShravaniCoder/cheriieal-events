@@ -15,14 +15,15 @@ export default function Footer() {
     <footer className="relative overflow-hidden bg-forest text-ivory">
 
       {/* =====================================================
-          LUXURY CSS BACKGROUND
+          BACKGROUND
       ====================================================== */}
 
-      {/* Deep emerald gradient */}
+      {/* Deep green background */}
       <div
         className="
           pointer-events-none
-          absolute inset-0
+          absolute
+          inset-0
           bg-gradient-to-br
           from-[#0A2119]
           via-[#10231D]
@@ -30,22 +31,21 @@ export default function Footer() {
         "
       />
 
-      {/* Soft emerald glow — top right */}
+      {/* Soft emerald glow */}
       <div
         className="
           pointer-events-none
           absolute
-          -right-32
-          -top-32
+          -right-40
+          -top-40
           h-[420px]
           w-[420px]
           rounded-full
           bg-emerald/20
-          blur-[120px]
+          blur-[130px]
         "
       />
 
-      {/* Soft emerald glow — bottom left */}
       <div
         className="
           pointer-events-none
@@ -55,89 +55,55 @@ export default function Footer() {
           h-[420px]
           w-[420px]
           rounded-full
-          bg-emerald/25
+          bg-emerald/20
           blur-[130px]
         "
       />
 
-      {/* =====================================================
-          MINIMAL GOLD TEXTURE
-      ====================================================== */}
-
-      {/* Bottom gold glow */}
+      {/* Very subtle gold glow */}
       <div
         className="
           pointer-events-none
           absolute
-          bottom-[-100px]
-          left-[-80px]
+          -bottom-40
+          left-0
           h-[260px]
           w-[500px]
           rounded-full
-          bg-champagne/10
-          blur-[100px]
-        "
-      />
-
-      {/* Minimal gold decorative line */}
-      <div
-        className="
-          pointer-events-none
-          absolute
-          bottom-16
-          right-[-80px]
-          h-px
-          w-[420px]
-          rotate-[-12deg]
-          bg-gradient-to-r
-          from-transparent
-          via-champagne/30
-          to-transparent
-        "
-      />
-
-      <div
-        className="
-          pointer-events-none
-          absolute
-          bottom-24
-          right-[-50px]
-          h-px
-          w-[300px]
-          rotate-[-12deg]
-          bg-gradient-to-r
-          from-transparent
-          via-champagne/15
-          to-transparent
-        "
-      />
-
-      {/* Tiny gold accent */}
-      <div
-        className="
-          pointer-events-none
-          absolute
-          bottom-10
-          left-12
-          h-1
-          w-1
-          rounded-full
-          bg-champagne/60
-          shadow-[0_0_20px_rgba(197,171,118,.45)]
+          bg-champagne/5
+          blur-[110px]
         "
       />
 
       {/* =====================================================
-          FOOTER CONTENT
+          CONTENT
       ====================================================== */}
 
-      <div className="relative mx-auto max-w-7xl px-5 py-14 md:px-8 lg:py-16">
+      <div
+        className="
+          relative
+          mx-auto
+          max-w-7xl
+          px-5
+          py-14
+          md:px-8
+          md:py-16
+        "
+      >
 
         {/* =================================================
-            MAIN FOOTER GRID
+            MAIN FOOTER
         ================================================== */}
 
-        <div className="grid gap-12 md:grid-cols-[1.2fr_.8fr_.9fr] lg:gap-20">
+        <div
+          className="
+            grid
+            gap-12
+            md:grid-cols-[1.2fr_.8fr_.9fr]
+            md:gap-16
+            lg:gap-20
+          "
+        >
 
           {/* =================================================
               BRAND
@@ -181,7 +147,10 @@ export default function Footer() {
               execution.
             </p>
 
-            {/* Social Icons */}
+            {/* =================================================
+                SOCIAL ICONS
+            ================================================== */}
+
             <div className="mt-7 flex gap-3">
 
               {/* Instagram */}
@@ -273,7 +242,7 @@ export default function Footer() {
           <div>
 
             {/* Heading */}
-            <div
+            <h3
               className="
                 font-display
                 text-xl
@@ -282,17 +251,13 @@ export default function Footer() {
               "
             >
               Explore
-            </div>
+            </h3>
 
-            {/* Gold underline */}
-            <div className="mt-3 flex items-center gap-2">
-              <span className="h-px w-8 bg-champagne/50" />
-              <span className="h-1 w-1 rotate-45 bg-champagne/70" />
-              <span className="h-px w-8 bg-champagne/50" />
-            </div>
+            {/* Minimal gold line */}
+            <div className="mt-3 h-px w-12 bg-champagne/50" />
 
             {/* Links */}
-            <div
+            <nav
               className="
                 mt-6
                 grid
@@ -354,7 +319,7 @@ export default function Footer() {
                 Contact Us
               </Link>
 
-            </div>
+            </nav>
           </div>
 
 
@@ -365,7 +330,7 @@ export default function Footer() {
           <div>
 
             {/* Heading */}
-            <div
+            <h3
               className="
                 font-display
                 text-xl
@@ -374,16 +339,12 @@ export default function Footer() {
               "
             >
               Connect
-            </div>
+            </h3>
 
-            {/* Gold underline */}
-            <div className="mt-3 flex items-center gap-2">
-              <span className="h-px w-8 bg-champagne/50" />
-              <span className="h-1 w-1 rotate-45 bg-champagne/70" />
-              <span className="h-px w-8 bg-champagne/50" />
-            </div>
+            {/* Minimal gold line */}
+            <div className="mt-3 h-px w-12 bg-champagne/50" />
 
-            {/* Contact Details */}
+            {/* Contact information */}
             <div
               className="
                 mt-6
