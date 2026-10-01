@@ -47,7 +47,7 @@ export const personalEvents = [
 
 export const personalEventsE = [
   ["Weddings & Pre-Wedding Celebrations", "We turn your wedding vision into beautifully composed celebrations, thoughtfully shaped around every meaningful detail.", images.weddingD],
-  ["Engagements & Ceremonies", "Elegant celebrations with considered styling, seamless guest flow and a sense of occasion.", images.ring],
+  ["Engagements & Ceremonies", "At Cheriial Events, we create elegant moments with refined styling, effortless flow and a distinctive source of occasion.", images.ring],
   ["Birthdays & Milestone Celebrations", "Our team transforms milestones into beautifully styled experiences filled with character, warmth and memorable details.", images.birthday],
   ["Anniversaries & Special Occasions", "We create intimate, polished gatherings where atmosphere, hospitality and personal touches come together naturally.", images.anniversary],
   ["Family & Cultural Celebrations", "Our team brings tradition and contemporary creativity together to create celebrations that feel meaningful, elevated and beautifully yours.", images.dinner]
