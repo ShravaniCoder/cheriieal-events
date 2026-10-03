@@ -103,7 +103,7 @@ export default function Contact() {
                 </div>
 
                 <div className="mt-1 text-sm text-forest">
-                  hello@cheriiealevents.com
+                  connect@cheriiealevents.com
                 </div>
               </div>
 

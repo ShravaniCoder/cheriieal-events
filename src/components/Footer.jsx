@@ -403,7 +403,7 @@ export default function Footer() {
                 />
 
                 <span>
-                  hello@cheriiealevents.com
+                  connect@cheriiealevents.com
                 </span>
 
               </a>
